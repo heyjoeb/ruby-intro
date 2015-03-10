@@ -5,10 +5,10 @@ RSpec.describe "ri04_algoritmos" do
   it "should define merge_sort" do
     expect(defined? merge_sort).to eq("method")
     arrs = [
-      []
-      [1]
-      [1..10].to_a
-      (1..10).to_a.shuffle
+      [],
+      [1],
+      [1..10].to_a,
+      (1..10).to_a.shuffle,
       (1..1000).to_a.shuffle,
     ]
     arrs.each do |arr|
