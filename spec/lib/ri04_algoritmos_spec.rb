@@ -26,18 +26,18 @@ RSpec.describe "ri04_algoritmos" do
   end
 
   it "should define es_primo?" do
-    expect( defined? es_primo? ).to eq( "methods" )
-    expect( es_primo(1) ).to eq(false)
-    expect( es_primo(0) ).to eq(false)
-    expect( es_primo(100) ).to eq(false)
-    expect( es_primo(2) ).to eq(true)
-    expect( es_primo(5) ).to eq(true)
-    expect( es_primo(11) ).to eq(true)
-    expect( es_primo(13) ).to eq(true)
-    expect( es_primo(15) ).to eq(false)
-    expect( es_primo(37) ).to eq(true)
-    expect( es_primo(33) ).to eq(false)
-    expect( es_primo(859) ).to eq(true)
+    expect( defined? es_primo? ).to eq( "method" )
+    expect( es_primo?(1) ).to eq(false)
+    expect( es_primo?(0) ).to eq(false)
+    expect( es_primo?(100) ).to eq(false)
+    expect( es_primo?(2) ).to eq(true)
+    expect( es_primo?(5) ).to eq(true)
+    expect( es_primo?(11) ).to eq(true)
+    expect( es_primo?(13) ).to eq(true)
+    expect( es_primo?(15) ).to eq(false)
+    expect( es_primo?(37) ).to eq(true)
+    expect( es_primo?(33) ).to eq(false)
+    expect( es_primo?(859) ).to eq(true)
 
     nums = (1..100).map { rand 10000 }
     nums.each do |n|
