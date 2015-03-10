@@ -5,7 +5,7 @@ RSpec.describe "ri03_clases" do
   subject { person }
 
   it "should define Persona as a class" do
-    expect(defined? Persona).to_not eq(nil)
+    expect(defined? Persona).to eq("constant")
     expect(Persona.class).to eq(Class)
   end
   it { should respond_to :nombre }

@@ -4,7 +4,7 @@ RSpec.describe "ri04_metaprogramacion" do
 
   describe "#getter" do
     it "should define getter" do
-      expect(defined? getter).to_not eq(nil)
+      expect(defined? getter).to eq("method")
     end
 
     it "should add a getter to a class" do
@@ -25,7 +25,7 @@ RSpec.describe "ri04_metaprogramacion" do
 
   describe "#getter_y_setter" do
     it "should define getter_y_setter" do
-      expect(defined? getter_y_setter).to_not eq(nil)
+      expect(defined? getter_y_setter).to eq("method")
     end
 
     it "should add a getter and a setter to a class" do

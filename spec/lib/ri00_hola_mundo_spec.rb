@@ -5,7 +5,7 @@ RSpec.describe "ri00_hola_mundo" do
 
     expect(STDOUT).to receive(:puts).with("Hola Mundo!")
     require "ri00_hola_mundo"
-    
+
   end
-  
+
 end
