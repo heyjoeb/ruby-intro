@@ -1,6 +1,6 @@
-require "ri04_metaprogramacion"
+require "ri05_metaprogramacion"
 
-RSpec.describe "ri04_metaprogramacion" do
+RSpec.describe "ri05_metaprogramacion" do
 
   describe "#getter" do
     it "should define getter" do
