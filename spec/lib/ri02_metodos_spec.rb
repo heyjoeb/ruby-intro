@@ -1,6 +1,6 @@
 require "ri02_metodos"
 
-RSpec.describe "ri01_tipos_de_dato" do
+RSpec.describe "ri02_metodos" do
 
   it "should define saludar" do
     expect(defined? saludar).to_not eq(nil)
