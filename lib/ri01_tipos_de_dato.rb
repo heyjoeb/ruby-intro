@@ -5,8 +5,11 @@
 # color_ropa (como hash) (las prendas son la llave y el color es el valor)
 # color_favorito (como símbolo)
 
-
-
+nombre = "pepe"
+edad = 23
+materias_favoritas = ["estructuras de datos", "POO"]
+color_ropa = { "pantalon" => "azul", "camiseta" => "blanco" }
+color_favorito = :azul
 
 
 
