@@ -1,4 +1,4 @@
-# Define las siguientes variables con tus datos:
+# TODO: Define las siguientes variables con tus datos:
 # nombre (como string)
 # edad (como número)
 # materias_favoritas (como array)
