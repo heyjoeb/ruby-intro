@@ -1,16 +1,13 @@
-def add_setter(name)
+
+def setter(name)
   define_method("#{name}=") do |val|
     instance_variable_set("@#{name}", val)
   end
 end
 
-def add_getter(name)
-  define_method(name) do
-    instance_variable_get("@#{name}")
-  end
-end
+# TODO: Define un metodo llamado getter que agregue un getter a una clase.
+# Toma como ejemplo el método setter que definimos arriba.
 
-class Greeter
-  add_setter "name"
-  add_getter "name"
-end
+
+# TODO: Define un metodo llamado getter_y_setter que agregue un getter y un
+# setter a una clase.
