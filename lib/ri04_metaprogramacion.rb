@@ -11,3 +11,25 @@ end
 
 # TODO: Define un metodo llamado getter_y_setter que agregue un getter y un
 # setter a una clase.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# El código que escribas dentro de esta condición no será ejecutado en las
+# pruebas.
+if __FILE__ == $0
+
+end

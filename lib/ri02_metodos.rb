@@ -17,3 +17,20 @@
 # Ejemplo: sumar_varios(4,8) => 12
 # Ejemplo: sumar_varios(4,8,3,5) => 20
 # Ejemplo: sumar_varios(1) => 1
+
+
+
+
+
+
+
+
+
+
+
+
+# El código que escribas dentro de esta condición no será ejecutado en las
+# pruebas.
+if __FILE__ == $0
+
+end
