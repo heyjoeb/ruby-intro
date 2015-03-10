@@ -26,4 +26,12 @@ RSpec.describe "ri01_tipos_de_dato" do
     expect(eval "#{script};color_ropa.class").to eq(Hash)
     expect(eval "#{script};color_ropa.any?").to eq(true)
   end
+
+  # color_favorito (como símbolo)
+  it "should declare color_favorito as Symbol" do
+    expect(eval "#{script};defined? color_favorito").to_not eq(nil)
+    expect(eval "#{script};color_favorito.class").to eq(Symbol)
+  end
+
+
 end
