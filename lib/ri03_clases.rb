@@ -2,10 +2,9 @@
 # nombre, edad y apellido
 #
 
-
-
-
-
+class Persona
+  attr_accessor :nombre, :edad, :apellido
+end
 
 
 
