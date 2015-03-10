@@ -21,7 +21,7 @@ RSpec.describe "ri01_tipos_de_dato" do
     expect(eval "#{script};materias_favoritas.class").to eq(Array)
   end
   # color_ropa (como hash) (las prendas son la llave y el color es el valor)
-  it "should declare color_ropa as Array" do
+  it "should declare color_ropa as Hash" do
     expect(eval "#{script};defined? color_ropa").to_not eq(nil)
     expect(eval "#{script};color_ropa.class").to eq(Hash)
     expect(eval "#{script};color_ropa.any?").to eq(true)
