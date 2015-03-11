@@ -19,7 +19,7 @@ RSpec.describe "ri04_algoritmos" do
 
   it "should define fibonacci" do
     expect(defined? fibonacci).to eq("method")
-    nums = (1..50).to_a
+    nums = (1..10).to_a
     nums.each do |n|
       expect( fibonacci(n) ).to eq( fibonacci_sol(n) )
     end

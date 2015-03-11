@@ -15,6 +15,10 @@
 # fibonacci(4) => 3
 # fibonacci(5) => 5
 # fibonacci(13) => 233
+def fibonacci( n )
+  return  n  if ( 0..1 ).include? n
+  ( fibonacci( n - 1 ) + fibonacci( n - 2 ) )
+end
 
 
 
@@ -27,7 +31,16 @@
 # es_primo?(33) => false
 # es_primo?(37) => true
 # es_primo?(859) => true
-
+def es_primo?(n)
+	if n == 2
+		return true
+	end
+    2.upto(Math.sqrt(n).ceil) do |i|
+        break if n%i==0
+        return true if i==Math.sqrt(n).ceil   
+    end
+    return false
+end
 
 
 
